@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  border-style: solid;
+  border-width: 0 1.5rem;
+  border-color: rgb(41, 39, 39);
+  font-family: "Open Sans", sans-serif;
+}
+.left {
+  width: 45%;
+  float: left;
+}
+.right {
+  width: 46%;
+  float: right;
+}
+.table-left {
+  width: 30%;
+  float: left;
+}
+.table-right {
+  width: 30%;
+  float: right;
+}
+.header {
+  background-color: rgb(41, 39, 39);
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+.header span {
+  display: inline-block;
+  padding: 2rem;
+}
+.name-card {
+  display: inline-block;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(41, 39, 39);
+  text-align: center;
+  color: white;
+}
+.name-position {
+  position: relative;
+  top: 7.5rem;
+}
+.main table {
+  margin: 2rem 3rem 2rem 10rem;
+}
+.main-data,
+.last-div2 td {
+  width: 50%;
+}
+
+.learn-button {
+  display: inline-block;
+  background-color: honeydew;
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 120px;
+  margin: 1rem;
+}
+.video-button {
+  display: inline-block;
+  background-color: rgb(243, 77, 105);
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 120px;
+  margin: 1rem;
+}
+.books-button {
+  display: inline-block;
+  background-color: orange;
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 120px;
+  margin: 1rem;
+}
+.buttons {
+  text-align: center;
+}
+
+.quote {
+  background-color: rgb(41, 39, 39);
+  height: 100px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.quote span {
+  display: inline-block;
+  width: fit-content;
+  padding: 40px 30%;
+}
+.award-cards {
+  margin: 1.5rem;
+  text-align: center;
+}
+.award-cards table {
+  text-align: left;
+}
+.card {
+  display: inline-block;
+  height: fit-content;
+  width: 240px;
+  border: 1px solid rgb(228, 224, 224);
+  border-radius: 3px;
+  margin: 0.5rem;
+}
+.last-div {
+  padding: 0 2rem;
+}
+.last-div table,
+.last-div2 table {
+  width: 100%;
+  padding: 1rem 5rem;
+}
+footer {
+  width: 100%;
+  height: 180px;
+  background-color: rgb(41, 39, 39);
+  text-align: center;
+}
+#first-footer,
+#second-footer,
+#third-footer {
+  color: white;
+  width: fit-content;
+  border: none;
+  padding: 2rem 0.2rem;
+  text-align: left;
+}
+#third-footer {
+  color: white;
+  width: 500px;
+}
+#third-footer ul {
+  list-style: none;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+#first-footer table,
+#second-footer table {
+  padding-right: 4px;
+  border-width: 0 1px 0 0;
+  border-color: white;
+  border-style: solid;
+}
